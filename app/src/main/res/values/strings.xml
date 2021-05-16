@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MOnApplication</string>
+    <string name="dynamicText">Test</string>
+    <string name="item_default_name">Test</string>
+    <string name="item_Resultat">Resultat des concours</string>
+    <item type="id" name="changementDuMode" />
+
+</resources>

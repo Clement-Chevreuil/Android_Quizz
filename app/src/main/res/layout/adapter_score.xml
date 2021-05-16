@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/livre1" />
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/concourNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_default_name"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/concourPrix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/concourNom"
+            android:text="@string/item_default_name"
+            android:textColor="#434343"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/concourScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/concourPrix"
+            android:text="@string/item_default_name"
+            android:textColor="#434343"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/concourTemps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/concourScore"
+            android:text="@string/item_default_name"
+            android:textColor="#434343"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</LinearLayout>

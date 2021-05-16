@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myDynamicLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagedeconnexion"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="5dp"
+        android:background="#B8CFCFBB"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="PARTICIPER A UN CONCOURS"
+        android:textColor="#000000"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ListView
+        android:id="@+id/shop_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:background="#B8CFCFBB"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#BCFFE6E6"
+        android:text="Resultat "
+        android:visibility="visible">
+
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/changeMode"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDeconnexion"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#BCFFE6E6"
+        android:padding="0dp"
+        android:text="Deconnexion "
+        android:visibility="visible">
+
+    </Button>
+</LinearLayout>

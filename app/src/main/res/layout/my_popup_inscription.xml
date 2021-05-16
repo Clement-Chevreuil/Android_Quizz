@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:background="@drawable/pagedeconnexion">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D5CFCFBB"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Mon Titre par default"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/sousTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Mon sous titre par default"
+            android:textSize="15dp">
+
+        </TextView>
+
+        =
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nom :"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/example_text_size" />
+
+            <EditText
+                android:id="@+id/prenom"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Prenom :"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/example_text_size" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/pseudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Pseudo :"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/dateNaiss2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date de naissance :" />
+
+        <DatePicker
+            android:id="@+id/dateNaiss"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"></DatePicker>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/Pays"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Pays :"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/example_text_size" />
+
+            <EditText
+                android:id="@+id/Ville"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ville :"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/example_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/Adresse"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Adresse : "
+                android:inputType="textPersonName"
+                android:textSize="@dimen/example_text_size" />
+
+            <EditText
+                android:id="@+id/CodePostal"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Code Postal :"
+                android:inputType="textPostalAddress"
+                android:textSize="@dimen/example_text_size" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/Mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mail : "
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/example_text_size" />
+
+        <EditText
+            android:id="@+id/Telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telephone :"
+            android:inputType="phone"
+            android:textSize="@dimen/example_text_size" />
+
+        <EditText
+            android:id="@+id/MotDePasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mot de passe :"
+            android:inputType="textPassword"
+            android:textSize="@dimen/example_text_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/valider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valider"></Button>
+
+            <Button
+                android:id="@+id/annuler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Annuler"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

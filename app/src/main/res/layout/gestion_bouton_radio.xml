@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton style="@style/Theme.AppCompat"
+    android:textSize="30sp"
+
+    android:textColor="#002a33"
+    android:id="@+id/rdbg_question"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#B8CFCFBB"
+    android:padding="5dp"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android" />

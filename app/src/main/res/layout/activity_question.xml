@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pagedeconnexion"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#B8CFCFBB"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="QCM"
+        android:textColor="#000000"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/txt_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#B8CFCFBB"
+        android:gravity="center"
+         />
+
+    <RadioGroup
+        android:id="@+id/rdbg_question"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:gravity="center"
+ />
+
+    <Button
+        android:id="@+id/cmd_reponse"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Valider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
+
+        app:layout_constraintTop_toBottomOf="@+id/rdbg_question" />
+
+
+
+
+</LinearLayout>
